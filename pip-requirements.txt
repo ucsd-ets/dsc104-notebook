@@ -1,0 +1,12 @@
+# redis
+redis
+# postgresql
+psycopg2-binary
+# cassandra
+cassandra-driver
+# mongodb
+pymongo
+# neo4j
+neo4j
+# solr
+pysolr
