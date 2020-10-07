@@ -8,6 +8,8 @@ USER root
 COPY pip-requirements.txt /tmp
 RUN pip install --no-cache-dir -r /tmp/pip-requirements.txt
 
+RUN apt-get install dnsutils -y
+
 COPY /test.ipynb /home/jovyan
 RUN chown -R $NB_UID /home/jovyan
 
